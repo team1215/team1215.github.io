@@ -84,6 +84,13 @@ h2 {
     color: var(--teal-700);
 }
 
+/* 使论文条目（文字、图片、视频）宽度一致 */
+.publication-item {
+    max-width: 900px;
+    margin: 0.5em auto;
+    box-sizing: border-box;
+}
+
 /* 全局链接样式（除导航在 nav a 中覆盖） */
 a {
     color: var(--teal-700);
